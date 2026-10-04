@@ -1,0 +1,7 @@
+{
+  "name": "BillGuard - Hospital Bill Checker & Dispute Letter Generator",
+  "description": "AI-assisted hospital bill checker and dispute letter generator for Indian patients against CGHS reference rates and insurance policies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

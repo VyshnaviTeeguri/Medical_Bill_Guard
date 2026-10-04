@@ -1,0 +1,13 @@
+name = "billguard-api"
+main = "worker.py"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["python_workers"]
+
+# Cloudflare KV Namespace for Patient Profiles & Policy metadata
+kv_namespaces = [
+  { binding = "PATIENT_KV", id = "PATIENT_KV_ID_HERE" }
+]
+
+# Set secrets via `wrangler secret put GEMINI_API_KEY`
+# [vars]
+# ENVIRONMENT = "production"

@@ -1,0 +1,2 @@
+# Cloudflare Worker Python (Pyodide) dependencies
+# Pyodide includes standard libraries, difflib, and json built-in
